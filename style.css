@@ -127,24 +127,34 @@
 }
 
 
-@media(min-width:320px) {
+@media (min-width: 320px){
     .ac-container label{
         font-size: 1em;
         line-height: 1.3em;
         height: 1.3em;
     }
+
+    .picture{
+        background-size: 90% 80%;
+    }
 }
-@media(min-width:820px) {
+
+@media (min-width: 820px){
     .ac-container label{
-        font-size: 3em;
+        font-size: 1.2em;
         line-height: 2em;
         height: 2em;
     }
+    .picture{
+        background-size: auto 80%;
+    }
+
 }
-@media(min-width:1920px) {
+
+@media (min-width: 1920px){
     .ac-container label{
-        font-size: 7em;
-        line-height: 3em;
+        font-size: 1.5em;
+        line-height: 2.5em;
         height: 2.5em;
     }
 }
