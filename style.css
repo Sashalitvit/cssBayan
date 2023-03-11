@@ -125,3 +125,26 @@
 .pic5{
     background-image: url(./pic/fryday640.jpg);
 }
+
+
+@media(min-width:320px) {
+    .ac-container label{
+        font-size: 1em;
+        line-height: 1.3em;
+        height: 1.3em;
+    }
+}
+@media(min-width:820px) {
+    .ac-container label{
+        font-size: 3em;
+        line-height: 2em;
+        height: 2em;
+    }
+}
+@media(min-width:1920px) {
+    .ac-container label{
+        font-size: 7em;
+        line-height: 3em;
+        height: 2.5em;
+    }
+}
