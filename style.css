@@ -90,3 +90,25 @@
     padding: 20px;
     text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
 }
+
+/*в работе*/
+.picture{
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.pic1{
+    background-image: url(./pic/monday.jpg);
+}
+.pic2{
+    background-image: url(./pic/tuesday.jpg);
+}
+.pic3{
+    background-image: url(./pic/wednesday.jpg);
+}
+.pic4{
+    background-image: url(./pic/thursday.jpg);
+}
+.pic5{
+    background-image: url(./pic/friday.jpg);
+}
