@@ -31,3 +31,18 @@ h2{
     line-height: 42px;
     color: #0D606F;
 }
+.monday{
+    background-image: url(./pic/monday.jpg);
+}
+.tuersday{
+    background-image: url(./pic/tuesday.jpg);
+}
+.wednesday{
+    background-image: url(./pic/friday.jpg);
+}
+.thusday{
+    background-image: url(./pic/thursday.jpg);
+}
+.friday{
+    background-image: url(./pic/friday.jpg);
+}
