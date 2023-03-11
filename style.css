@@ -1,5 +1,5 @@
 .ac-container{
-    width: 400px;
+    max-width: 1920px; /*400*/
     margin: 10px auto 30px auto;
 }
 .ac-container label{
@@ -45,8 +45,8 @@
 .ac-container input:checked + label:hover:after{
     content: '';
     position: absolute;
-    width: 24px;
-    height: 24px;
+    max-width: 1920px; /*24*/
+    max-height: 1080px; /*24*/
     right: 13px;
     top: 7px;
     background: transparent url(http://netcribe.com/example/arrow_down.png) no-repeat center center;
@@ -93,9 +93,11 @@
 
 /*в работе*/
 .picture{
-    width: 400px;
-    height: 200px;
+    width: 1000px;
+    height: 600px;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
 }
 .pic1{
     background-image: url(./pic/monday.jpg);
