@@ -56,20 +56,7 @@
         0px 0px 0px 1px rgba(155,155,155,0.3),
         0px 2px 2px rgba(0,0,0,0.1);
 }
-.ac-container label:hover:after,
-.ac-container input:checked + label:hover:after{
-    content: '';
-    position: absolute;
-    max-width: 1920px; /*24*/
-    max-height: 1080px; /*24*/
-    right: 13px;
-    top: 7px;
-    background: transparent url(http://netcribe.com/example/arrow_down.png) no-repeat center center;
-}
 
-.ac-container input:checked + label:hover:after {
-    background-image: url(http://netcribe.com/example/arrow_up.png);
-}
 .ac-container input{
     display: none;
 }
@@ -100,14 +87,7 @@
     justify-content: center;
 }
 
-.ac-container article p{
-    font-style: italic;
-    color: #777;
-    line-height: 23px;
-    font-size: 14px;
-    padding: 20px;
-    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
-}
+
 
 /*в работе*/
 .picture{
